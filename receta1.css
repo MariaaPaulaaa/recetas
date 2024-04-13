@@ -23,12 +23,13 @@ body{
     font-weight: bold;
 }
 div{
-    background-color: white;
+    
     border-radius: 5px;
     display: flex;
+    
     align-items: stretch;
     gap: 3em;
-    padding-top: 50px;
+   
 
 }
 header{
@@ -39,17 +40,18 @@ a{
     text-decoration: none;
     color: white;
 }
-#botondeluna{
+#botonluna{
     width: 20px;
     height: 20px;
 }
 #imagenprincipal{
     width: 1000px;
-    height: 150px;
+    height: 250px;
     object-fit: cover;
 }
 h1,
-h2{
+h2,
+h3{
     color:#7E4333 ;
 }
 #divrosita{
@@ -66,25 +68,90 @@ h2{
 #segundacolumna{
     position: relative;
 
+
 }
 .darkMode{
     background-color: #161616;
     p,
     h1,
     h2,
+   h3,
     li{
         color: white
     }
-    div{
+    div,
+    main{
         background-color: rgb(116, 115, 115)
     }
     #divrosita{
+        background-color: rgb(201, 196, 196)
+    }
+    section,
+    aside,
+    #segundacolumna{
         background-color: rgb(201, 196, 196)
     }
     ;}
 #linkParaElForm{
         padding-left: 1600px;
     }
-footer{
+#container-flex{
     background-color: #255538;
+    color: white;
+    padding: 5px;
+    
+}
+main{
+    margin: 0 auto;
+    max-width: 1000px;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100px
+    350px
+    200px
+   
+   
+    ;
+    background-color: white;
+    grid-template-areas:
+    "my-header my-header my-header"
+    "my-nav my-nav my-nav"
+    "my-section my-section my-section"
+    "my-aside my-aside my-aside";
+    gap: 2em;
+    
+    
+}
+header{
+    grid-area:my-header ;
+}
+nav{
+    grid-area: my-nav;
+    align-items: start;
+}
+section{
+    grid-area: my-section;
+}
+aside{
+    grid-area: my-aside;
+    background-color: white;
+    width: 300px;
+    height: 600px;
+    position: relative;
+    right: 390px;
+    top: 350px;
+    margin-right: 500px;
+    border-radius: 5px;
+    
+}
+#segundacolumna{
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+p{
+    color: #161616;
 }
