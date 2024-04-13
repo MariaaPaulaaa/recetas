@@ -65,6 +65,8 @@ main{
     width: 1200px;
     padding: 0 auto;
     height: 800px;
+    display: flex;
+    margin: auto;
 }
 #Paenviar{
     background-color: #255538;
