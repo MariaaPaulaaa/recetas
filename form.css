@@ -1,0 +1,92 @@
+body{
+    background-color: #F3E5D8;
+}
+.darkMode{
+    background-color: #161616;
+    color: #F2F2F2;}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif
+    
+}
+header {
+    background-color:#255538 ;
+    border-radius: 5px;
+   
+}
+footer{
+    background-color:#255538 ;
+    border-radius: 5;
+    color: white;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+#flex-container {
+    display: flex;
+   justify-content: space-between;
+
+}
+#container-flex{
+    display: flex;
+   justify-content: space-between;
+   
+}
+#bitcook,
+#Elbitcook
+{
+    font-family: serif;
+}
+#bitcook,
+#ElDarkMode,
+#linkParaElForm{
+    width: 250px;
+    height: 35px;
+   
+    color: white;
+    padding: 5px;
+
+}
+#Elbitcook,
+#footer{
+    width: 400px;
+    height: 50px;
+   
+    color: white;
+    padding: 5px;
+}
+#footer{
+    font-family: sans-serif;
+}
+form{
+    background-color: white;
+}
+#Paenviar{
+    background-color: #255538;
+    color: white;
+    border-radius: 5px;
+    width: 150px;
+    height: 35px;
+}
+input,
+textarea,
+select,
+button {
+    width:150px;
+    padding: 0 ;
+    margin: 0 ;
+    box-sizing: border-box;
+}
+img{
+    width: 380px ;
+    height: 248px;
+}
+#botonluna{
+    width: 20px;
+    height: 20px;
+}
+div{
+    display: block;
+}

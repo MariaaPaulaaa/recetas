@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./form.css" >
+</head>
+<body>
+    <header id="flex-container">
+        <a href="home.html" id="bitcook">BitCook</a>
+        <a href="./form.html" id="linkParaElForm">Send us your recipe</a>
+        <button onclick="darkMode()" id="ElDarkMode">
+            <img src="./img - Copie/LUNAAAAAAAAA.png" alt="darkModeButton" id="botonluna">
+
+        </button>
+      
+    </header>
+    <div>
+        <h1>Send us your recipe!!</h1>
+        <p>
+            This mini form will allow us to learn and present new recipes to people that wants to learn to cook easy and delicious food.Also our page is build to transmit the passion and the love for the cooking.
+        </p>
+    </div>
+<main>
+    <form >
+        <div id="from "> 
+            <label for="name">Recipe name</label>
+            <input type="text" name="user_name"  id="namerecipe" />
+        </div>
+        <div id="reply  " >
+            <label for="time">Time of preparation</label>
+            <input type ="text" name="user_time"  id="time" />
+        </div>
+        <div id="message ">   
+            <label for="ingredient">What Ingredients Does include?</label>
+            <input type="text" name="user_ingredients"  id="ingredients" />
+        </div>
+        <div id="algo">
+            <label for="">Quick Instructions</label>
+            <input type="text" name="user_instructions"  id="instructions" />
+        </div>
+        <div class="button">
+            <button type="submit" id="Paenviar">Send</button>
+        </div>
+    </form>
+</main>
+    <footer id="container-flex">
+        <p id="Elbitcook">BitCook</p>
+        <p id="footer">©2024 Bogota Institute of Technology</p>
+    </footer>
+    <script src="./form.js"></script>
+</body>
+</html>
