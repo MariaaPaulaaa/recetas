@@ -3,7 +3,7 @@ body{
 }
 .darkMode{
     background-color: #161616;
-    color: #F2F2F2;}
+    ;}
 a{
     text-decoration: none;
     color: white;
@@ -60,8 +60,11 @@ footer{
 #footer{
     font-family: sans-serif;
 }
-form{
+main{
     background-color: white;
+    width: 1200px;
+    padding: 0 auto;
+    height: 800px;
 }
 #Paenviar{
     background-color: #255538;
@@ -89,4 +92,34 @@ img{
 }
 div{
     display: block;
+}
+h1{
+    color: #7E4333;
+}
+p{
+    font-size: 25px;
+    margin-left: 10px;
+}
+.label{
+    font-size: 20px;
+    color: #7E4333;
+    margin-left: 80px;
+}
+label, input {
+    display: block;
+    margin: auto;
+  } 
+input{
+    width: 1000px;
+    margin: auto;
+}
+.text{
+height: 30px;
+}
+.pregunta{
+height: 200px;
+}
+input{
+    border-radius: 4px;
+    background-color: rgb(201, 197, 197);
 }

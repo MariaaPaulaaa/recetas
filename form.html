@@ -16,39 +16,51 @@
         </button>
       
     </header>
+    <main>
+    <div>
     <div>
         <h1>Send us your recipe!!</h1>
         <p>
             This mini form will allow us to learn and present new recipes to people that wants to learn to cook easy and delicious food.Also our page is build to transmit the passion and the love for the cooking.
         </p>
     </div>
-<main>
+
     <form >
         <div id="from "> 
-            <label for="name">Recipe name</label>
-            <input type="text" name="user_name"  id="namerecipe" />
+            <label for="name" class="label">Recipe name</label>
+            <br>
+            <input type="text" name="user_name"  id="namerecipe" class="text" />
+        </br>
         </div>
         <div id="reply  " >
-            <label for="time">Time of preparation</label>
-            <input type ="text" name="user_time"  id="time" />
+            <label for="time" class="label">Time of preparation</label>
+            <br>
+            <input type ="text" name="user_time"  id="time" class="text" />
+        </br>
         </div>
         <div id="message ">   
-            <label for="ingredient">What Ingredients Does include?</label>
-            <input type="text" name="user_ingredients"  id="ingredients" />
+            <label for="ingredient" class="label">What Ingredients Does include?</label>
+            <br>
+            <input type="text" name="user_ingredients"  id="ingredients"  class="pregunta"/>
+        </br>
         </div>
         <div id="algo">
-            <label for="">Quick Instructions</label>
-            <input type="text" name="user_instructions"  id="instructions" />
+            <label for="ingredient" class="label">Quick Instructions</label>
+            <br>
+            <input type="text" name="user_instructions"  id="instructions"  class="pregunta"/>
+        </br>
         </div>
         <div class="button">
             <button type="submit" id="Paenviar">Send</button>
         </div>
     </form>
 </main>
+</div>
     <footer id="container-flex">
         <p id="Elbitcook">BitCook</p>
         <p id="footer">©2024 Bogota Institute of Technology</p>
     </footer>
     <script src="./form.js"></script>
+    
 </body>
 </html>
