@@ -3,7 +3,13 @@ body{
 }
 .darkMode{
     background-color: #161616;
-    ;}
+    main{
+        background-color: rgb(110, 110, 110)
+
+    }
+    input{
+        background-color: rgb(177, 177, 177)
+    ;}}
 a{
     text-decoration: none;
     color: white;
@@ -19,6 +25,7 @@ footer{
     background-color:#255538 ;
     border-radius: 5;
     color: white;
+    
 }
 *{
     box-sizing: border-box;

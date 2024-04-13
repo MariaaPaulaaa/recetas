@@ -49,7 +49,7 @@ a{
     object-fit: cover;
 }
 h1,
-h3{
+h2{
     color:#7E4333 ;
 }
 #divrosita{
@@ -71,12 +71,15 @@ h3{
     background-color: #161616;
     p,
     h1,
-    h3
+    h2,
     li{
         color: white
     }
     div{
         background-color: rgb(116, 115, 115)
+    }
+    #divrosita{
+        background-color: rgb(201, 196, 196)
     }
     ;}
 #linkParaElForm{

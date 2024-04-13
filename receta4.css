@@ -58,7 +58,22 @@ h3{
 }
 .darkMode{
     background-color: #161616;
+    p,
+    h1,
+    h2,
+    li{
+        color: white
+    }
+    div{
+        background-color: rgb(116, 115, 115)
+    }
+    #divrosita{
+        background-color: rgb(201, 196, 196)
+    }
     ;}
+#linkParaElForm{
+        padding-left: 1600px;
+    }
 
     #linkParaElForm{
         padding-left: 1600px;
